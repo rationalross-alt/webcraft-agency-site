@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://webcraftconsulting.co.uk/sitemap.xml
