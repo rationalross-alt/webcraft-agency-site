@@ -75,7 +75,7 @@
     .hero-bg {
       position:absolute;
       inset:0;
-      background-image: url('https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=1600&q=80');
+      background-image: url('https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1600&q=80');
       background-size:cover;
       background-position:center 60%;
       z-index:0;
@@ -83,7 +83,7 @@
     .hero-overlay {
       position:absolute;
       inset:0;
-      background: linear-gradient(to bottom, rgba(9,13,22,0.55) 0%, rgba(9,13,22,0.90) 100%);
+      background: linear-gradient(to bottom, rgba(9,13,22,0.65) 0%, rgba(9,13,22,0.95) 100%);
       z-index:1;
     }
     .hero-content {
@@ -112,6 +112,8 @@
     .tick-list { list-style:none; margin-top:14px; display:flex; flex-direction:column; gap:8px; }
     .tick-list li { font-size:0.9rem; color:var(--muted); padding-left:20px; position:relative; }
     .tick-list li::before { content:"✓"; position:absolute; left:0; color:var(--accent3); font-weight:700; }
+    .addon-note { margin-top:16px; padding:10px 14px; border-radius:10px; background:rgba(129,140,248,0.08); border:1px solid rgba(129,140,248,0.22); color:var(--accent2); font-size:0.82rem; font-weight:600; line-height:1.45; }
+    .value-note { margin-top:14px; padding:10px 14px; border-radius:10px; background:rgba(56,189,248,0.07); border:1px solid rgba(56,189,248,0.2); color:var(--accent); font-size:0.82rem; font-weight:600; line-height:1.45; }
     section { padding:48px 0; border-top:1px solid var(--border); }
     h2 { font-size:1.85rem; letter-spacing:-0.02em; margin-bottom:12px; }
     footer { border-top:1px solid var(--border); padding:36px 0; color:var(--muted); font-size:0.9rem; }
@@ -127,7 +129,7 @@
     </div>
   </header>
 
-  <!-- HERO WITH NIGHTTIME LONDON SKYLINE -->
+  <!-- HERO WITH NIGHTTIME LONDON HIGHRISE SKYLINE -->
   <div class="hero-wrap">
     <div class="hero-bg"></div>
     <div class="hero-overlay"></div>
@@ -169,6 +171,9 @@
           <h3>Bespoke Local Business Site</h3>
           <div class="price">&pound;495 <span style="font-size:0.9rem;color:var(--muted);font-weight:500;">one-off</span></div>
           <p>Custom mobile-first design, copywriting, tap-to-call conversion layout, LocalBusiness JSON-LD schema, SSL security, and full domain launch within 72 hours.</p>
+          <div class="value-note">
+            Pair with the &pound;49/mo Growth add-on for unlimited updates. Total: &pound;495 + &pound;49/mo, better value than the all-inclusive monthly plan alone.
+          </div>
         </div>
 
         <!-- Tier 2: £99/mo — CENTRE (featured) -->
@@ -186,14 +191,18 @@
             <li>Priority support</li>
             <li>No setup cost when bundled at sign-up</li>
           </ul>
+          <p style="margin-top:14px;font-size:0.82rem;color:var(--muted);">Need unlimited updates? Add the &pound;49/mo Growth plan after any build purchase instead.</p>
         </div>
 
-        <!-- Tier 3: £59/mo — RIGHT -->
+        <!-- Tier 3: £49/mo — RIGHT -->
         <div class="card">
           <div style="color:var(--accent2);font-weight:700;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em;">Growth &amp; Local SEO</div>
           <h3>Managed Care &amp; Search Visibility</h3>
-          <div class="price" style="color:var(--accent2);">&pound;59<span style="font-size:0.9rem;color:var(--muted);font-weight:500;">/mo</span></div>
-          <p>Unlimited content &amp; offer updates, Google Business Profile &amp; local keyword tracking, AI search schema maintenance, and priority support.</p>
+          <div class="price" style="color:var(--accent2);">&pound;49<span style="font-size:0.9rem;color:var(--muted);font-weight:500;">/mo</span></div>
+          <p>Unlimited content and offer updates, Google Business Profile and local keyword tracking, AI search schema maintenance, and priority support.</p>
+          <div class="addon-note">
+            Add-on for existing build customers only. Available after purchase of the &pound;495 Launch Build or the &pound;99 All-Inclusive package. Replaces the 2-revision limit with truly unlimited updates.
+          </div>
         </div>
 
       </div>
